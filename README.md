@@ -6,6 +6,11 @@
 
 ## 流媒体解锁检测脚本 -  [Streaming Unlock Test Script (EN)](https://github.com/xykt/RegionRestrictionCheck/blob/main/README_EN.md)
 
+### 仅作备份用
+```
+bash <(curl -L -s https://github.com/Xiefengshang/RegionRestrictionCheck/raw/main/check.sh)
+```
+
 **支持OS/Platform：CentOS 6+, Ubuntu 14.04+, Debian 8+, Alpine, MacOS, Android with Termux, [iOS](https://github.com/lmc999/RegionRestrictionCheck/wiki/iOS%E8%BF%90%E8%A1%8C%E8%84%9A%E6%9C%AC%E6%96%B9%E6%B3%95)**
 
 ![截图](https://raw.githubusercontent.com/xykt/RegionRestrictionCheck/main/reference/IMG/ScreenShot.png)
