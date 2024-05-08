@@ -4391,15 +4391,6 @@ function Goodbye() {
         ADN=$(echo $(($RANDOM % 2 + 1)))
     fi
 
-    if [[ "$language" == "e" ]]; then
-        echo -e "${Font_Green}Testing Done! Thanks for Using This Script! ${Font_Suffix}"
-        echo -e "${Font_Yellow}Script Runs Today: ${TodayRunTimes}; Script Runs Total: ${TotalRunTimes} ${Font_Suffix}"
-        echo -e ""
-    else
-        echo -e "${Font_Green}本次测试已结束，感谢使用此脚本 ${Font_Suffix}"
-        echo -e "${Font_Yellow}检测脚本当天运行次数: ${TodayRunTimes}; 共计运行次数: ${TotalRunTimes} ${Font_Suffix}"
-        echo -e ""
-    fi
 }
 
 clear
@@ -4428,11 +4419,6 @@ function ScriptTitle() {
 #ScriptTitle
 
 function Start() {
-	  echo -e ""
-    bash <(curl -s https://raw.githubusercontent.com/xykt/RegionRestrictionCheck/main/reference/AD/AD2)
-	  echo -e ""
-    bash <(curl -s https://raw.githubusercontent.com/xykt/RegionRestrictionCheck/main/reference/AD/AD)
-	  echo -e ""
     if [[ "$language" == "e" ]]; then
         echo -e "${Font_Blue}Please Select Test Region or Press ENTER to Test All Regions${Font_Suffix}"
         echo -e "${Font_SkyBlue}Input Number  [1]: [ Multination + Taiwan ]${Font_Suffix}"
